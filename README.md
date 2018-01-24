@@ -1,4 +1,4 @@
-# movieplatform
+# Movie Platform
 Project for intern in Allegro
 
 ### About
@@ -13,9 +13,9 @@ It's simple CRUD. We have list of movies in our database and we can add new one,
 ### Problems
 <details>
   <summary>Problem with connecting MySQL database</summary>
-    Problem: Error creating bean 'entityManagerFactory'
-    Source: java 9 probably
-    Solve: Still not, staying in java 8 for right now
+    - Problem: Error creating bean 'entityManagerFactory'
+    - Source: java 9 probably
+    - Solve: Still not, staying in java 8 for right now
 </details>
 
 ### Features
