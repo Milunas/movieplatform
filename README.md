@@ -28,6 +28,7 @@ i love programming and I'm ambitious so i couldnt stop just with that
 - [ ] java 9 migrations
 - [ ] accounts, blogs and more
 - [ ] microservice architecture
+- [ ] angular frontend
 - [ ] ...
 
 ### Links
