@@ -19,7 +19,7 @@ It's simple CRUD. We have list of movies in our database and we can add new one,
 </details>
 
 ### Features
-i love programming and I'm ambitious so i couldnt stop with that
+i love programming and I'm ambitious so i couldnt stop just with that
 - [ ] swagger documentation
 - [ ] validation
 - [ ] data transfer object (MovieCommand)
