@@ -2,7 +2,7 @@
 Project for intern in Allegro
 
 ### About
-It's simple CRUD. We have list of movies in our database and we can add new one, get one of them or all.
+It's simple CRUD. We have list of movies in our database and we can add new one, get one of them or all at once.
 
 ### Technologies
 
