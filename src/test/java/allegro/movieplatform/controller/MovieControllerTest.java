@@ -21,7 +21,7 @@ public class MovieControllerTest {
     @LocalServerPort
     private Integer port;
     @Autowired
-    protected MovieController controller;
+    private MovieController controller;
     private final String EXAMPLE = "Example";
 
     @Before

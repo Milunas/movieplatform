@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class MovieServiceImp implements MovieService {
 
-    public final static String BASE_URL = "localhost:8080/movies/";
+    private final static String BASE_URL = "localhost:8080/movies/";
 
     @Autowired
     private MovieRepository repository;
