@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class MovieRepositoryTest {
 
     @Autowired
-    protected MovieRepository repository;
+    private MovieRepository repository;
 
     private final String EXAMPLE = "Example";
 

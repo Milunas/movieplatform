@@ -20,7 +20,7 @@ It's simple CRUD. We have list of movies in our database and we can add new one,
 
 ### Features
 i love programming and I'm ambitious so i couldnt stop just with that
-- [ ] swagger documentation
+- [x] swagger documentation
 - [ ] validation
 - [ ] data transfer object (MovieCommand)
 - [ ] tests in Spock (something new)
@@ -37,3 +37,5 @@ i love programming and I'm ambitious so i couldnt stop just with that
 - [Spring project example](https://github.com/spring-projects/spring-petclinic)
 - [Rest](http://www.restapitutorial.com)
 - [Questions](https://stackoverflow.com)
+- [Swagger pt 1](https://swagger.io/specification/)
+- [Swagger pt 2](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)
