@@ -18,6 +18,12 @@ It's simple CRUD. We have list of movies in our database and we can add new one,
     - Source: java 9 probably
     - Solve: Still not, staying in java 8 for right now
 </details>
+<details>
+  <summary>Kotlin Jpa default constructor hell</summary>
+    - Problem: org.hibernate.InstantiationException: No default constructor for entity
+- Source: Kotlin JPA default hell
+- Solve: adding variables in data class</details>
+
 
 ### Features
 i love programming and I'm ambitious so i couldnt stop just with that
