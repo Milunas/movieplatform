@@ -1,5 +1,6 @@
 package milunas.allegromovies.service.implementation
 
+import milunas.allegromovies.exception.MovieAlreadyInDatabaseException
 import milunas.allegromovies.model.Movie
 import milunas.allegromovies.repository.MovieRepository
 import milunas.allegromovies.service.MovieService
@@ -19,7 +20,7 @@ class MovieServiceImp(private val movieRepository: MovieRepository) : MovieServi
 
     override fun addMovie(movie: Movie) : Movie  {
         if(isMoviePresent(movie))
-            throw RuntimeException("Movie " + movie.title + " already in database")
+            throw MovieAlreadyInDatabaseException("Movie " + movie.title + " already existing")
 
         return movieRepository.save(movie)
     }
