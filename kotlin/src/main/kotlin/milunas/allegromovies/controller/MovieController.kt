@@ -2,10 +2,8 @@ package milunas.allegromovies.controller
 
 import milunas.allegromovies.model.Movie
 import milunas.allegromovies.service.MovieService
-import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus
-import org.springframework.http.ResponseEntity
-import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.*
 
 @RestController
@@ -20,8 +18,9 @@ class MovieController(private val movieService: MovieService) {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    fun addMovie(@RequestBody movie: Movie){
-        movieService.addMovie(movie)
+    fun addMovie(@RequestBody movie: Movie) {
+        val addedMovie = movieService.addMovie(movie)
+        HttpHeaders().set("Location", addedMovie.id.toString())
     }
 
     @GetMapping("/{id}")

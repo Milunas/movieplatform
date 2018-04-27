@@ -8,5 +8,5 @@ interface MovieService {
 
     fun getMovieById(id: Long) : Movie
 
-    fun addMovie(movie: Movie)
+    fun addMovie(movie: Movie) : Movie
 }

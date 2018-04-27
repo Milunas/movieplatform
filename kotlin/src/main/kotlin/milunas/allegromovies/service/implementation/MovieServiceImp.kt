@@ -17,11 +17,11 @@ class MovieServiceImp(private val movieRepository: MovieRepository) : MovieServi
         return movieRepository.findById(id).get()
     }
 
-    override fun addMovie(movie: Movie)  {
+    override fun addMovie(movie: Movie) : Movie  {
         if(isMoviePresent(movie))
-            movieRepository.save(movie)
-        else
             throw RuntimeException("Movie " + movie.title + " already in database")
+
+        return movieRepository.save(movie)
     }
 
     private fun isMoviePresent(movie: Movie) : Boolean{
