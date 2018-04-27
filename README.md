@@ -9,6 +9,7 @@ It's simple CRUD. We have list of movies in our database and we can add new one,
 - Spring (boot, data, test, web)
 - MySQL (for storage data)
 - Rest Assured (for mocking httpClient for tests)
+- Check also version with Kotlin!
 
 ### Problems
 <details>
