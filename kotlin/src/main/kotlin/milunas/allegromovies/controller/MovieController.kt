@@ -19,8 +19,7 @@ class MovieController(private val movieService: MovieService) {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     fun addMovie(@RequestBody movie: Movie) {
-        val addedMovie = movieService.addMovie(movie)
-        HttpHeaders().set("Location", addedMovie.id.toString())
+        movieService.addMovie(movie)
     }
 
     @GetMapping("/{id}")
